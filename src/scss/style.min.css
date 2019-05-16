@@ -1,0 +1,1 @@
+*{padding:0;margin:0;list-style:none}.wrapper{width:100%;height:100%}.wrapper .header{width:99.4%;height:51px;color:#ccc;border:1.3px solid #ccc}.wrapper .header ul{display:flex;justify-content:space-around;align-items:center}.wrapper .header ul li{display:block;text-align:center;width:16%;font-size:15px;line-height:50px}.active{color:blue;border-bottom:2px solid blue}
