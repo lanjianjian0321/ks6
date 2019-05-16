@@ -25,6 +25,52 @@
             }
         }
     }
+    .main {
+        width: 100%;
+        .cont {
+            width: 90%;
+            height: 120px;
+            border: 1px solid #ccc;
+            margin: 20px auto;
+            ul {
+                li:nth-child(1) {
+                    height: 60px;
+                    background: red;
+                    color: #fff;
+                    display: flex;
+                    justify-content: space-between;
+                    span:nth-child(1) {
+                        padding: 10px;
+                        b {
+                            font-size: 30px;
+                        }
+                    }
+                    span:nth-child(2) {
+                        padding: 10px;
+                        font-size: 25px;
+                        display: block;
+                        margin-top: 15px;
+                    }
+                }
+                li:nth-child(2) {
+                    width: 100%;
+                    height: 60px;
+                    p {
+                        span {
+                            font-size: 11px;
+                            line-height: 18px;
+                            display: block;
+                            padding-left: 15px;
+                            padding-top: 6px;
+                        }
+                        span:nth-child(1) {
+                            color: green;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 .active {

@@ -30,6 +30,57 @@
   line-height: 50px;
 }
 
+.wrapper .main {
+  width: 100%;
+}
+
+.wrapper .main .cont {
+  width: 90%;
+  height: 120px;
+  border: 1px solid #ccc;
+  margin: 20px auto;
+}
+
+.wrapper .main .cont ul li:nth-child(1) {
+  height: 60px;
+  background: red;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper .main .cont ul li:nth-child(1) span:nth-child(1) {
+  padding: 10px;
+}
+
+.wrapper .main .cont ul li:nth-child(1) span:nth-child(1) b {
+  font-size: 30px;
+}
+
+.wrapper .main .cont ul li:nth-child(1) span:nth-child(2) {
+  padding: 10px;
+  font-size: 25px;
+  display: block;
+  margin-top: 15px;
+}
+
+.wrapper .main .cont ul li:nth-child(2) {
+  width: 100%;
+  height: 60px;
+}
+
+.wrapper .main .cont ul li:nth-child(2) p span {
+  font-size: 11px;
+  line-height: 18px;
+  display: block;
+  padding-left: 15px;
+  padding-top: 6px;
+}
+
+.wrapper .main .cont ul li:nth-child(2) p span:nth-child(1) {
+  color: green;
+}
+
 .active {
   color: blue;
   border-bottom: 2px solid blue;
